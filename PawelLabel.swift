@@ -10,7 +10,7 @@
 
 import UIKit
 
-public class PawelLabel: UILabel {
+@objc public class PawelLabel: UILabel {
     
     // MARK: - Lifecycle
     
