@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33B1873E1D9CF2A40056BAA4 /* PawelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */; };
 		E543E43D1D9C48900063812F /* PawelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E543E43C1D9C48900063812F /* PawelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E543E43E1D9C48B50063812F /* PawelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E543E43C1D9C48900063812F /* PawelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E543E43F1D9C48B60063812F /* PawelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E543E43C1D9C48900063812F /* PawelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PawelLabel.swift; sourceTree = "<group>"; };
 		E543E4101D9C469F0063812F /* PawelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PawelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E543E41E1D9C46BD0063812F /* PawelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PawelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E543E42B1D9C46CE0063812F /* PawelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PawelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 				E543E4361D9C47470063812F /* Info-tvOS.plist */,
 				E543E4371D9C47470063812F /* Info-watchOS.plist */,
 				E543E4401D9C492D0063812F /* MyTest.swift */,
+				33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E543E4471D9C4EF00063812F /* README.md in Sources */,
+				33B1873E1D9CF2A40056BAA4 /* PawelLabel.swift in Sources */,
 				E543E4411D9C492D0063812F /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
