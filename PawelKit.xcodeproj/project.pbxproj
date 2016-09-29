@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		33B1873E1D9CF2A40056BAA4 /* PawelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */; };
+		33B187411D9CF4D90056BAA4 /* PawelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */; };
+		33B187421D9CF4DA0056BAA4 /* PawelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */; };
+		33B187441D9CF6150056BAA4 /* PawelLabel.swift in Resources */ = {isa = PBXBuildFile; fileRef = 33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */; };
 		E543E43D1D9C48900063812F /* PawelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E543E43C1D9C48900063812F /* PawelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E543E43E1D9C48B50063812F /* PawelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E543E43C1D9C48900063812F /* PawelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E543E43F1D9C48B60063812F /* PawelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E543E43C1D9C48900063812F /* PawelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E543E4411D9C492D0063812F /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543E4401D9C492D0063812F /* MyTest.swift */; };
-		E543E4471D9C4EF00063812F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E543E4441D9C4EF00063812F /* README.md */; };
 		E5EFF0331D9C510B0081FF08 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543E4401D9C492D0063812F /* MyTest.swift */; };
 		E5EFF0341D9C510C0081FF08 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543E4401D9C492D0063812F /* MyTest.swift */; };
 /* End PBXBuildFile section */
@@ -29,9 +31,6 @@
 		E543E4401D9C492D0063812F /* MyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTest.swift; path = Sources/MyTest.swift; sourceTree = "<group>"; };
 		E543E4421D9C4EF00063812F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = Metadata/LICENSE; sourceTree = "<group>"; };
 		E543E4431D9C4EF00063812F /* PawelKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PawelKit.podspec; path = Metadata/PawelKit.podspec; sourceTree = "<group>"; };
-		E543E4441D9C4EF00063812F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Metadata/README.md; sourceTree = "<group>"; };
-		E5EFF02A1D9C50AC0081FF08 /* PawelKit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawelKit_iOSTests.swift; sourceTree = "<group>"; };
-		E5EFF02C1D9C50AC0081FF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +58,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33B187431D9CF5260056BAA4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 		E543E4041D9C46430063812F = {
 			isa = PBXGroup;
 			children = (
+				33B187431D9CF5260056BAA4 /* Components */,
 				E543E4481D9C4EFB0063812F /* Metadata */,
 				E543E43B1D9C474D0063812F /* Sources */,
-				E5EFF0291D9C50AC0081FF08 /* PawelKit iOSTests */,
 				E543E4111D9C469F0063812F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +94,6 @@
 				E543E4361D9C47470063812F /* Info-tvOS.plist */,
 				E543E4371D9C47470063812F /* Info-watchOS.plist */,
 				E543E4401D9C492D0063812F /* MyTest.swift */,
-				33B1873D1D9CF2A40056BAA4 /* PawelLabel.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -97,18 +103,8 @@
 			children = (
 				E543E4421D9C4EF00063812F /* LICENSE */,
 				E543E4431D9C4EF00063812F /* PawelKit.podspec */,
-				E543E4441D9C4EF00063812F /* README.md */,
 			);
 			name = Metadata;
-			sourceTree = "<group>";
-		};
-		E5EFF0291D9C50AC0081FF08 /* PawelKit iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				E5EFF02A1D9C50AC0081FF08 /* PawelKit_iOSTests.swift */,
-				E5EFF02C1D9C50AC0081FF08 /* Info.plist */,
-			);
-			path = "PawelKit iOSTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B187441D9CF6150056BAA4 /* PawelLabel.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E543E4471D9C4EF00063812F /* README.md in Sources */,
 				33B1873E1D9CF2A40056BAA4 /* PawelLabel.swift in Sources */,
 				E543E4411D9C492D0063812F /* MyTest.swift in Sources */,
 			);
@@ -277,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B187411D9CF4D90056BAA4 /* PawelLabel.swift in Sources */,
 				E5EFF0331D9C510B0081FF08 /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B187421D9CF4DA0056BAA4 /* PawelLabel.swift in Sources */,
 				E5EFF0341D9C510C0081FF08 /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
